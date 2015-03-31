@@ -1,0 +1,170 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: helvetica, serif;
+}
+
+* {
+	font-size: 12px;
+}
+
+h3{
+	font-weight:bold;
+}
+
+#wrapper{ 
+	width: 960px;
+	height: auto;
+	overflow:hidden;
+	background-color: gray;
+	margin: 0 auto;
+	
+}
+
+	#header {
+		background-color:#FDFDFD;
+		height: 130px;
+		width: 960px;
+
+	}
+		#logo {
+		display:inline-block;
+
+
+		}
+		#contact {
+			display:inline-block;
+			vertical-align: top;
+			margin: 30px 0 0 295px;
+			font-weight:bold;
+
+		}
+		.contact {
+			font-size:15px;
+		}
+		#nav {
+			background-color: #DBE1E6;
+
+		}
+		#nav li {
+			display: inline-block;
+			padding: 10px 0px 10px 20px;
+			font-size: 11px;
+			font-weight: bold;
+		}
+
+		#nav a {	
+			text-decoration: none;
+			color: #555555;
+
+		}
+
+		#content {
+			background-color: black;
+			padding: 15px 20px 15px 30px;
+		}
+		/*	#top {
+				margin: 0 auto;
+			}*/
+				#mainimage {
+					display:inline-block;
+					height: 240px;
+					width: 350px;
+					border: 5px solid;
+					border-color: white;
+					margin-left: 5px;
+				}
+				
+				#article1{
+					display:inline-block;
+					width:500px;
+					vertical-align: top;
+					height:250px;
+					margin: 0 0 0 25px;
+					background-color:gray;
+
+				}
+					#title1 {
+						background-color:#FCC504;
+						color:black;
+						font-size:13px;
+						height:20px;
+						vertical-align: center;
+						padding: 10px 0 0 10px;
+					}
+
+					.article1 {
+						/*display:inline-block;*/
+						
+						color:white;					
+						padding: 15px;
+
+
+					}
+						p {
+							padding-top: 15px;
+						}
+			
+			#filler {
+				margin: 0 0 20px 10px;
+				color: #8B9352;
+			}
+
+			.square {
+				width: 200px;
+				height: 230px;
+				margin: 0 20px 0 5px;
+				display: inline-block;
+				vertical-align: top;
+				background-color: white;
+				/*padding-bottom: 10px;*/
+			}
+
+			.title2 {
+				background-color: #FCC504;
+				padding: 10px 0 0 10px;
+				height: 18px;
+			}
+
+			.square img {
+				width:200px;
+				height:100px;
+			}
+
+			.square p {
+				font-size: 9px;
+			}
+
+			.preview {
+				height: 60px;
+				background-color: white;
+				padding: 0 15px 0 15px;
+			}
+
+			.readmore {
+				margin: 10px 20px 15px 120px;
+				text-align: center;
+				background-color: #FCC504;
+				border: 2px solid;
+				border-radius: 5px;
+				width: 70px;
+			}
+
+			.readmore a {
+				font-size: 8px;
+				text-decoration: none;
+				color: black;
+				font-weight:bold;
+				padding: 5px;
+			}
+			
